@@ -1,0 +1,252 @@
+.ticket-section {
+	padding-top: 115px;
+	padding-bottom: 115px;
+}
+.ticket-section .container .row .col-lg-7 {
+	padding-right:0;
+}
+.ticket-section .container p {
+	max-width: 670px;
+	padding-top: 11px;
+}
+.ticket-box {
+	background: #5E88A2;
+	padding: 55px 50px;
+	width: 675px;
+	margin-top: 10px;
+	float: left;
+	margin-bottom: 0;
+	position: relative;
+}
+.ticket-box:before {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: #fff;
+  clip-path: polygon(0 0, 100% 0, 100% 100%);
+  width: 50px;
+  height: 50px;
+  content: "";
+}
+.ticket-box,
+.ticket-box a {
+	color:#FFFFFF;
+}
+.ticket-box a:hover {
+	color:#B4CD95;
+}
+.gift-image {
+	width: 480px;
+	float: right;
+	margin-top: 35px;
+	position: relative;
+}
+.gift-image img {
+	width: 100%;
+	height:511px;
+	object-fit: cover;
+	position: relative;
+}
+.gift-image:before {
+	position: absolute;
+	left: -20px;
+	width: calc(100% + 20px);
+	bottom:-20px;
+	background: rgba(94,136,162,.24);
+	height: 80%;
+	content: "";
+	clip-path: polygon(0 10%, 100% 0, 100% 100%, 0% 100%);
+}
+.single-gift-box {
+	border:1px solid #5E88A2;
+	padding:45px 110px 45px 45px;
+	display: flex;
+	align-items: center;
+	margin-bottom: 40px;
+	position: relative;
+}
+.gift-detail h2 {
+	font-size: 35px;
+	font-weight: bold;
+	margin-bottom: 20px;
+	color:#262626;
+	text-transform: uppercase;
+}
+.gift-detail {
+	padding-left: 85px;
+}
+.gift-detail p {
+	margin-bottom: 25px;
+}
+.gift-detail p a {
+	color:#262626;
+}
+.gift-detail p a:hover {
+	color:#B4CD95;
+}
+.gift-detail p:last-child {
+	margin-bottom: 0;
+}
+.single-gift-box .row {
+	display: flex;
+	align-items: center;
+}
+.single-gift-box .text-center img {
+	position: relative;
+}
+.single-gift-box .text-center {
+  min-width: 340px;
+}
+.gift-box {
+	margin-bottom: 50px;
+	overflow:hidden;
+}
+
+@media(max-width:1650px){
+	.ticket-section {
+	  padding-top: 80px;
+	  padding-bottom: 80px;
+	}
+	.single-gift-box .text-center {
+	  min-width: 270px;
+	}
+	.gift-detail {
+	  padding-left: 100px;
+	}
+}
+
+@media(max-width:1365px){
+	.gift-image {
+	  width: 380px;
+	}
+	.gift-image img {
+	  height: 445px;
+	}
+	.ticket-section .container p {
+	  max-width: 86%;
+	}
+	.ticket-box {
+	  width: 580px;
+	}
+	.single-gift-box {
+	  padding: 45px 55px 45px 45px;
+	}
+	.gift-detail h2 {
+	  font-size: 30px;
+	  margin-bottom: 15px;
+	}
+}
+@media(max-width:1199px){
+	.gift-image {
+	  width: 100%;
+	}
+	.gift-image img {
+	  height: 385px;
+	}
+	.ticket-box {
+	  width: 480px;
+	  padding: 40px;
+	  margin-top: 0;
+	  font-size: 28px !important;
+	}
+	.single-gift-box {
+	  padding: 35px 45px 35px 35px;
+	}
+	.gift-detail {
+	  padding-left: 10px;
+	}
+}
+@media(max-width:991px){
+	.ticket-section .row .col-md-12:first-child {
+		order:2;
+	}
+	.ticket-section .row .col-md-12:last-child {
+		order:1;
+	}
+	.gift-image {
+	  width: 410px;
+	  margin: 0 auto 50px auto;
+	  float: none;
+	}
+	.ticket-section .container p {
+	  max-width: 100%;
+	}
+	.ticket-box {
+	  width: 480px;
+	  margin: auto;
+	  float: none;
+	}
+	.gift-detail {
+	  padding-left: 0;
+	  padding-top: 40px;
+	}
+	.gift-box {
+	  margin-bottom: 20px;
+	}
+}
+@media(max-width:767px){
+	.gift-detail h2 {
+	  font-size: 27px;
+	  margin-bottom: 10px;
+	}
+	.single-gift-box {
+	  padding: 40px;
+	}
+	.ticket-section {
+	  padding-top: 60px;
+	  padding-bottom: 60px;
+	}
+	.single-gift-box {
+	  margin-bottom: 30px;
+	}
+}
+@media(max-width:585px){
+	.ticket-section .container .row .col-lg-7 {
+	  padding-right: calc(var(--bs-gutter-x) * .5);
+	}
+	.ticket-box {
+	  width: 100%;
+	  padding: 40px 30px;
+	  font-size: 26px !important;
+	}
+	.single-gift-box {
+	  padding: 30px;
+	}
+	.gift-detail {
+	  padding-top: 25px;
+	}
+}
+@media(max-width:479px){
+	.gift-image {
+	  width: 100%;
+	}
+	.gift-image img {
+	  height: 285px;
+	}
+	.gift-image::before {
+	  left: -10px;
+	  width: calc(100% + 10px);
+	  bottom: -10px;
+	}
+	.ticket-box {
+	  width: 100%;
+	  padding: 30px 20px;
+	  font-size: 22px !important;
+	}
+	.ticket-section {
+	  padding-top: 50px;
+	  padding-bottom: 50px;
+	}
+	.single-gift-box .text-center {
+	  min-width: 100%;
+	}
+	.single-gift-box .text-center img {
+	  width: 100%;
+	}
+	.single-gift-box {
+	  padding: 20px;
+	}
+	.gift-detail h2 {
+	  font-size: 25px;
+	}
+}

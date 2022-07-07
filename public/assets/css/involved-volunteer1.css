@@ -1,0 +1,1103 @@
+.hero-section {
+  background-color: #5e88a2;
+  border-radius: 0 0 100px 100px;
+  min-height: 830px;
+}
+.hero-section .row {
+  margin: 0;
+}
+.hero-section .row .col-md-6 {
+  padding: 0;
+}
+.hero-section .row .col-md-6:first-of-type img {
+  width: 100%;
+  border-radius: 0 0 0 100px;
+  min-height: 830px;
+  object-fit: cover;
+}
+.hero-section .contact {
+  color: #fff;
+  width: 694px;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin: 0 auto;
+}
+.hero-section .contact {
+  text-align: center;
+  width: 570px;
+  margin: auto;
+  text-transform: uppercase;
+}
+.hero-section .contact h1.h2 {
+  font-size: 70px !important;
+}
+
+.top-volunteer {
+  position: relative;
+}
+.top-volunteer .green-tringle-shape {
+  top: 130px;
+}
+.top-volunteer p {
+  font-size: 20px;
+  line-height: 1.5;
+  color:#434343;
+  margin-bottom: 0;
+}
+.top-volunteer {
+  padding-top:105px;
+  padding-bottom: 114px;
+}
+.top-volunteer .row {
+  display: flex;
+  align-items: center;
+}
+.foundation-des {
+  background: #B4CD95;
+  padding:85px 20px;
+}
+.foundation-des p {
+  color:#fff;
+  font-weight: normal !important;
+  max-width: 900px;
+  margin: auto;
+}
+.foundation-inner {
+  width: 1200px;
+  float: right;
+  padding-top: 64px;
+  margin-right: 35px;
+}
+.foundation-box {
+  border:2px solid #B4CD95;
+  padding:33px 40px;
+  position: relative;
+}
+.foundation-section {
+  position: relative;
+  overflow: hidden;
+}
+.all-foundation {
+  position: relative;
+  clear: both;
+  display: inline-block;
+  width: 100%;
+}
+.all-foundation:first-child:after {
+  position: absolute;
+  left: -75px;
+  top: -70px;
+  content: "";
+  width: 75px;
+  height: 150px;
+  border-left: 2px solid #B4CD95;
+}
+.all-foundation:before {
+  position: absolute;
+  left: -75px;
+  top: 40px;
+  content: "";
+  width: 75px;
+  height: calc(100% + 7px);
+  border-top: 2px solid #B4CD95;
+  border-left: 2px solid #B4CD95;
+}
+.all-foundation:last-child:before {
+  border-left:none;
+}
+.foundation-box {
+  margin-bottom: 30px;
+}
+.foundation-box ul li {
+  font-size: 20px;
+  color:#262626;
+  line-height: normal;
+  position: relative;
+  padding-left: 20px;
+}
+.foundation-box ul li:before {
+  width: 8px;
+  height: 8px;
+  background: #5e88a2;
+  position: absolute;
+  content: "";
+  left:0;
+  top: 7px;
+}
+.foundation-box ul {
+  padding-left: 25px;
+  padding-top: 32px;
+  padding-bottom: 30px;
+}
+.font-space {
+  letter-spacing: 1.3px;
+}
+.half-box {
+  width: calc(50% - 25px);
+  margin-right: 50px;
+  float: left;
+}
+.half-box:last-child {
+  margin-right: 0;
+}
+.half-box ul {
+  padding-left: 0;
+  padding-top: 22px;
+  padding-bottom: 0;
+}
+.half-box ul li {
+  margin-bottom: 16px;
+}
+.half-box ul li:last-child {
+  margin-bottom: 0;
+}
+.all-foundation.text-center h4 {
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  color:#262626;
+  line-height: 1.66;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  float: left;
+  width: 100%;
+}
+.all-foundation.text-center h4 a,
+.all-foundation h5 a {
+  color:#5E88A2;
+  text-decoration: underline;
+}
+.all-foundation.text-center h4 a:hover,
+.all-foundation h5 a:hover {
+  color:#B4CD95;
+}
+.all-foundation.text-center:before {
+  border-top: none;
+}
+.interested-box h5 {
+  letter-spacing: 1.3px;
+  margin-bottom: 10px;
+}
+.interested-box h5:last-child {
+  margin-bottom: 0px;
+}
+.artist-table {
+  position: relative;
+}
+.artist-table .green-tringle-shape {
+  top: -180px;
+}
+.artist-table table thead tr th {
+  background: #5E88A2;
+  padding:30px 40px;
+  color:#fff !important;
+}
+.artist-table table thead tr th,
+.artist-table table tbody tr td {
+  font-size: 26px;
+  color:#262626;
+  letter-spacing: 1.3px;
+  font-weight: bold;
+}
+.artist-table table tbody {
+  border:1px solid #434343;
+}
+.artist-table table thead tr th {
+  border-right:1px solid #434343 !important;
+  border-bottom:1px solid #434343 !important;
+  border-left:1px solid #5E88A2 !important;
+}
+.artist-table table thead tr th:last-child {
+  border-right:1px solid #5E88A2 !important;
+}
+.artist-table table tbody tr td{
+  background: #F9F9F9;
+  padding:17px 40px;
+  border-right:1px solid #434343 !important;
+}
+.artist-table {
+  margin-top: 70px;
+}
+.standards-section{
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+.sta-image {
+  width:100%;
+}
+.standards-detail {
+  padding-left: 30px;
+}
+.standards-detail p {
+  margin-bottom: 20px;
+}
+.standards-detail p:last-child {
+  margin-bottom: 0;
+}
+.standards-detail h2 {
+  margin-bottom: 15px;
+}
+.standards-detail p strong {
+  font-weight: bold !important;
+  text-transform: uppercase;
+}
+.emerging-section {
+  background: #B4CD95;
+}
+.emerging-section .row {
+  align-items: center;
+}
+.right-emerging h2 {
+  color:#fff;
+  margin-bottom: 25px;
+}
+.eme-image {
+  width: 362px;
+}
+.right-emerging {
+  padding:0 90px 0 0;
+}
+.right-emerging p,
+.right-emerging p a {
+  color:#fff;
+  line-height:1.38;
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+.right-emerging p:last-child {
+  margin-bottom: 0;
+}
+.right-emerging p a:hover {
+  color: #5E88A2;
+}
+.festival-section {
+  margin-top: 100px;
+  position: relative;
+  overflow-x: hidden;
+}
+.festival-section .green-tringle-shape {
+  top: auto;
+  bottom: 200px;
+}
+.festival-header {
+  border-bottom: 1px solid #707070;
+  margin-bottom: 30px;
+}
+.festival-header p {
+  margin: auto;
+  max-width: 730px;
+  margin-top: 15px;
+  margin-bottom: 50px;
+}
+.sponser-section {
+  margin-top: 30px;
+  float: left;
+  width: 100%;
+}
+.sponser-section h4 {
+  margin-bottom: 40px;
+}
+.single-sponser-box {
+  border: 2px solid #B4CD95;
+  /*min-height: 250px;*/
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  padding-top: 22px;
+  padding-bottom: 22px;
+}
+.sponser-section .row {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+.sponser-section .row .col-md-6 {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 30px;
+}
+
+.prize-section {
+  padding-top:80px;
+  clear: both;
+  position: relative;
+}
+.prize-section p {
+  max-width: 755px;
+  margin: 10px auto 0 auto;
+}
+.single-gift-box {
+  border: 1px solid #5E88A2;
+  padding: 30px 30px 30px 128px;
+  min-height: 234px;
+  position: relative;
+  overflow: hidden;
+}
+.single-gift-box h2 {
+  font-size: 35px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color:#262626;
+  position: relative;
+}
+.single-gift-box p {
+  margin: 0;
+  position: relative;
+  max-width: inherit;
+}
+.single-gift-box:before {
+  content: "\ea02";
+  color: #5e88a2;
+  font-family: 'icomoon' !important;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  font-size: 70px;
+  position: absolute;
+  z-index: 99;
+  left: 30px;
+  top: 40px;
+}
+.prize-section .row .col-md-6 {  
+  margin-bottom: 30px;
+}
+.prize-section .row {
+  margin-top: 60px;
+  margin-bottom: 70px;
+}
+.prize-section .green-tringle-shape {
+  top: auto;
+  bottom: 370px;
+}
+.number-volunteer {
+  background: url('../images/shape-bg.svg') no-repeat;
+  background-size: cover;
+  position: relative;
+  padding-top: 140px;
+}
+.number-volunteer:before {
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(94,136,162,.18);
+  content: "";
+}
+.number-volunteer .row {
+  margin-left: -18px;
+  margin-right: -18px;
+  position: relative;
+  z-index: 99;
+}
+.number-volunteer .row .col-md-4 {
+  padding-left: 18px;
+  padding-right: 18px;
+}
+.single-box-number {
+  border:2px solid #fff;
+  text-align: center;
+  padding:60px 45px 70px 45px;
+  position: relative;
+}
+.single-box-number h2 {
+  font-size: 125px;
+  line-height: 1.28;
+  color:#fff;
+}
+.single-box-number h2 sup {
+  font-size: 30px;
+  top: -65px;
+}
+.single-box-number h3 {
+  color:#fff;
+  font-size: 30px;
+  font-weight: bold !important;
+  margin-bottom: 15px !important;
+}
+.single-box-number h3.normal-font {
+  font-weight: normal !important;
+  margin-bottom: 0 !important;
+}
+.single-box-number:before {
+  /*position: absolute;
+  right: -1px;
+  top: -1px;
+  background: #fff;
+  clip-path: polygon(0 0, 100% 0, 100% 100%);
+  width: 175px;
+  height: 100px;
+  content: "";*/
+}
+.friend-section {
+  padding-top: 115px;
+  padding-bottom: 60px;
+}
+.friend-section .row {
+  margin-top: 50px;
+  margin-left: -40px;
+  margin-right: -40px;
+}
+.friend-section .row .col-md-6 {
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-bottom: 70px;
+}
+.friend-box {
+  border:1px solid #707070;
+  padding: 50px 40px 60px 40px;
+  position: relative;
+  height: 100%;
+  background: #fff;
+}
+.friend-box:before {
+  width: 100%;
+  height: calc(100% - 80px);
+  background: rgba(94,136,162,.24);
+  position: absolute;
+  content: "";
+  right: -20px;
+  bottom: -20px;
+  z-index: -1;
+}
+.friend-box h3 {
+  font-size: 30px;
+  color:#262626;
+  line-height: 1.33;
+  margin-bottom: 25px;
+}
+.friend-box ul li {
+  position: relative;
+  font-size: 30px;
+  color:#262626;
+  padding-left: 30px;
+}
+.friend-box ul li:before {
+  width: 8px;
+  height: 8px;
+  background: #5e88a2;
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 18px;
+}
+
+@media(max-width:1799px){
+  .hero-section,
+  .hero-section .row .col-md-6:first-of-type img {
+    min-height: 705px;
+  }
+  .apply-box h3, .apply-box h3 a {
+    font-size: 30px;
+  }
+  .icon-pdf-file::before {
+    font-size: 85px;
+  }
+  .mission-contain .tringle-shape {
+    left: -143px;
+  }
+  .skill-section {
+    padding-top: 120px;
+  }
+  .application-section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    margin-top: 120px;
+  }
+  .application-section::before {
+    width: calc(100% - 270px);
+  }
+}
+@media(max-width:1650px){
+  .hero-section,
+  .hero-section .row .col-md-6:first-of-type img {
+    min-height: 586px;
+  }
+  .hero-section .contact h1.h2 {
+    font-size: 60px !important;
+  }
+  .top-volunteer {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  .foundation-des {
+    background: #B4CD95;
+    padding: 70px 20px;
+  }
+  .foundation-des p {
+    max-width: 780px;
+  }
+  .foundation-inner {
+  width: 1120px;
+}
+.all-foundation.text-center h4 {
+  font-size: 28px;
+  }
+  .foundation-box {
+  padding: 27px 30px;
+}
+.artist-table table thead tr th, .artist-table table tbody tr td {
+  font-size: 24px;
+  }
+  .artist-table table thead tr th {
+  padding: 25px 40px;
+}
+.artist-table {
+  margin-top: 40px;
+}
+.standards-section {
+  margin-top: 90px;
+  margin-bottom: 90px;
+}
+.festival-section {
+  margin-top: 70px;
+  }
+  .sponser-section h4 {
+  margin-bottom: 30px;
+}
+.sponser-section {
+  margin-top: 20px;
+  }
+  .number-volunteer {
+  padding-top: 110px;
+}
+.single-box-number h2 {
+  font-size: 105px;
+  }
+  .single-box-number h3 {
+  font-size: 27px;
+}
+.single-box-number h2 sup {
+  font-size: 26px;
+  top: -55px;
+}
+.friend-box ul li {
+  font-size: 26px;
+}
+.friend-box ul li::before {
+  top: 15px;
+}
+.friend-box {
+  padding: 40px 30px 40px 40px;
+}
+.friend-box h3 {
+  font-size: 27px;
+  margin-bottom: 15px;
+}
+.friend-section {
+  padding-top: 90px;
+  padding-bottom: 40px;
+}
+.prize-section {
+  padding-top: 50px;
+}
+.prize-section .row {
+  margin-top: 50px;
+  }
+  .single-gift-box {
+  padding: 30px 30px 30px 118px;
+}
+}
+@media(max-width:1365px){
+  .hero-section .contact h1.h2 {
+    font-size: 50px !important;
+  }
+  .hero-section, .hero-section .row .col-md-6:first-of-type img {
+    min-height: 520px;
+  }
+  .foundation-inner {
+  width: 87%;
+}
+.foundation-box ul {
+  padding-top: 22px;
+  padding-bottom: 20px;
+}
+.half-box ul {
+  padding-top: 10px;
+  padding-bottom: 0;
+  }
+  .all-foundation.text-center h4 {
+    margin-top: 0;
+  }
+  .all-foundation.text-center h4 {
+    font-size: 26px;
+  }
+    .half-box ul li {
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  .foundation-box ul li {
+    font-size: 18px;
+  }
+  .artist-table table thead tr th, .artist-table table tbody tr td {
+    font-size: 22px;
+  }
+  .artist-table table thead tr th {
+    padding: 22px 30px;
+  }
+  .standards-detail {
+  padding-left: 20px;
+}
+.artist-table {
+  margin-top: 20px;
+}
+.standards-section {
+  margin-top: 60px;
+  margin-bottom: 70px;
+}
+.eme-image {
+  width: 90%;
+}
+.right-emerging p, .right-emerging p a {
+  font-size: 24px;
+}
+.right-emerging {
+  padding: 0 40px 0 0;
+}
+.right-emerging h2 {
+  margin-bottom: 15px;
+}
+.single-sponser-box img {
+  height: 150px;
+}
+.single-sponser-box {
+  /*min-height: 220px;*/
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .prize-section {
+  padding-top: 30px;
+}
+.single-gift-box h2 {
+  font-size: 28px;
+}
+  .single-gift-box::before {
+  top: 38px;
+}
+.single-gift-box {
+  padding: 30px 30px 30px 105px;
+}
+.single-box-number {
+  padding: 40px 35px 50px 35px;
+}
+.single-box-number h3 {
+  font-size: 25px;
+}
+.friend-box ul li {
+  font-size: 24px;
+}
+.top-image-volunteer {
+  width: 90%;
+}
+.friend-section {
+  padding-top: 70px;
+  }
+  .friend-section .row {
+  margin-top: 40px;
+}
+}
+@media(max-width:1199px){
+  .hero-section .contact {
+    width:95%;
+  }
+  .hero-section .contact h1.h2 {
+    font-size: 48px !important;
+  }
+  .hero-section,
+  .hero-section .row .col-md-6:first-of-type img {
+    min-height: 425px;
+  }
+  .hero-section {
+    border-radius: 0 0 70px 70px;
+  }
+  .hero-section .row .col-md-6:first-of-type img {
+    border-radius: 0 0 0 70px;
+  }
+  .top-volunteer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .foundation-inner {
+    width: 86%;
+    margin-right: 20px;
+  }
+  .all-foundation.text-center h4 {
+    font-size: 24px;
+  }
+  .foundation-box {
+    padding: 22px 25px;
+  }
+  .foundation-box {
+    margin-bottom: 25px;
+  }
+  .foundation-des {
+    padding: 50px 20px;
+  }
+  .foundation-des p {
+    max-width: 680px;
+  }
+  .artist-table table thead tr th,
+  .artist-table table tbody tr td {
+    padding: 18px 20px;
+    font-size: 20px;
+  }
+  .right-emerging p, .right-emerging p a {
+    font-size: 21px;
+  }
+  .right-emerging {
+    padding: 0 30px 0 0;
+  }
+  .eme-image {
+    width: 95%;
+  }
+  .standards-section {
+    margin-bottom: 60px;
+  }
+  .single-sponser-box img {
+    height: 130px;
+  }
+  .prize-section .row {
+    margin-bottom: 40px;
+  }
+  .number-volunteer {
+    padding-top: 90px;
+  }
+  .single-box-number {
+    padding: 40px 25px 50px 25px;
+  }
+  .single-box-number h2 {
+    font-size: 95px;
+  }
+  .single-box-number h2 sup {
+    font-size: 24px;
+    top: -50px;
+  }
+  .friend-box ul li {
+    font-size: 22px;
+    padding-left: 25px;
+  }
+  .friend-box ul li::before {
+    top: 12px;
+  }
+  .friend-box {
+    padding: 35px 30px 30px 30px;
+  }
+  .friend-section .row .col-md-6 {
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 60px;
+  }
+  .friend-section .row {
+    margin-left: -30px;
+    margin-right: -30px;
+  }
+  .top-volunteer p {
+  font-size: 18px;
+}
+.single-gift-box h2 {
+  font-size: 24px;
+}
+.single-gift-box::before {
+  font-size: 55px;
+  left: 20px;
+}
+.single-gift-box {
+  padding: 30px 30px 30px 80px;
+}
+.single-gift-box h2 {
+  margin-bottom: 10px;
+  }
+  .single-sponser-box {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.single-sponser-box img {
+  height: 100px;
+}
+.friend-section {
+  padding-bottom: 20px;
+}
+.single-box-number h3 {
+  font-size: 22px;
+}
+.sponser-section h4 {
+  margin-bottom: 20px;
+}
+.friend-box h3 {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+.friend-box ul li {
+  font-size: 20px;
+}
+.single-gift-box {
+  min-height: 224px;
+  }
+}
+
+@media(max-width:991px){
+  .hero-section .contact h1.h2 {
+    font-size: 40px !important;
+  }
+  .top-volunteer .col-lg-5,
+  .standards-section .col-lg-5 {
+    text-align: center;
+  }
+  .top-image-volunteer {
+    width: auto;
+    margin-bottom: 30px;
+  }
+  .all-foundation::before {
+  left: -55px;
+  width: 55px;
+}
+.all-foundation:first-child::after {
+  left: -55px;
+  }
+  .sta-image {
+    width: 500px;
+    margin-bottom: 30px;
+  }
+  .standards-detail {
+    padding-left: 0;
+  }
+  .right-emerging p, .right-emerging p a {
+  font-size: 19px;
+}
+.standards-section {
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+.festival-section {
+  margin-top: 50px;
+}
+.festival-header p {
+  margin-bottom: 30px;
+}
+.prize-section .row {
+  margin-bottom: 40px;
+}
+.single-box-number {
+  padding: 30px 20px 30px 20px;
+}
+.single-box-number h3 {
+  font-size: 20px;
+}
+.single-box-number h2 {
+  font-size: 85px;
+}
+.single-box-number h2 sup {
+  font-size: 22px;
+  top: -45px;
+}
+.single-gift-box {
+  min-height: 270px;
+}
+.artist-table table {
+  width: 920px;
+}
+}
+@media(max-width:767px){
+  .hero-section .row .col-md-6:first-of-type img {
+    border-radius: 0;
+    min-height: inherit;
+  }
+  .hero-section .contact {
+    padding: 75px 80px;
+  }
+  .top-image-volunteer {
+    width: 300px;
+  }
+  .foundation-inner {
+    width: 85%;
+    margin-right: 10px;
+  }
+  .half-box {
+    width: 100%;
+    margin-right: 0;
+    float: left;
+  }
+  .eme-image {
+    width: 100%;
+  }
+  .right-emerging {
+    padding: 20px 30px 30px 30px;
+  }
+  .festival-header {
+    margin-bottom: 10px;
+  }
+  .sponser-section .row .col-md-6 {
+    margin-bottom: 20px;
+  }
+  .single-gift-box {
+    min-height: inherit;
+  }
+  .prize-section .row .col-md-6 {
+    margin-bottom: 20px;
+  }
+  .single-box-number {
+    margin-bottom: 30px;
+  }
+  .number-volunteer {
+    padding-top: 50px;
+    padding-bottom: 20px;
+  }
+  .friend-box::before {
+    right: -10px;
+    bottom: -10px;
+  }
+  .friend-section .row .col-md-6 {
+    margin-bottom: 30px;
+  }
+  .friend-section {
+    padding-top: 50px;
+  }
+  .friend-section .row {
+    margin-top: 20px;
+  }
+  .standards-section {
+    margin-top: 30px;
+  }
+  .top-volunteer {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .hero-section {
+    border-radius: 0 0 50px 50px;
+  }
+  .foundation-inner {
+    padding-top: 40px;
+  }
+  .artist-table table thead tr th, .artist-table table tbody tr td {
+    font-size: 18px;
+    letter-spacing: 1px;
+  }
+  .sponser-section h4 {
+    margin-bottom: 15px;
+    font-size: 26px !important;
+  }
+  .prize-section .row {
+    margin-top: 30px;
+  }
+  .foundation-box ul li::before {
+    width: 6px;
+    height: 6px;
+  }
+}
+@media(max-width:585px){
+  .hero-section .contact h1.h2 {
+    font-size: 34px !important;
+    max-width: 300px;
+    margin: auto;
+  }
+  .right-emerging {
+    padding: 15px 25px 25px 25px;
+  }
+  .foundation-box ul {
+    padding-top: 15px;
+    padding-left: 15px;
+  }
+  .all-foundation::before {
+    left: -35px;
+    width: 35px;
+  }
+  .all-foundation:first-child::after {
+    left: -35px;
+  }
+  .friend-box ul li {
+    font-size: 18px;
+  }
+  .friend-box {
+    padding: 20px 25px 20px 25px;
+  }
+  .all-foundation.text-center h4 {
+    font-size: 19px;
+  }
+  .interested-box h5,
+  .foundation-box.half-box h5,
+  .foundation-box h5  {
+    letter-spacing: 1px;
+    font-size: 18px !important;
+  }
+  .foundation-box {
+    margin-bottom: 15px;
+  }
+  .all-foundation.text-center h4 {
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+  }
+  .sta-image {
+    width: 100%;
+  }
+  .foundation-inner {
+    width: 88%;
+    margin-right: 0;
+  }
+}
+@media(max-width:479px){
+  .hero-section .contact {
+    padding: 55px 0;
+  }
+  .hero-section .contact h1.h2 {
+    font-size: 30px !important;
+  }
+  .foundation-des {
+    padding: 30px 20px;
+  }
+  .foundation-box ul li {
+    font-size: 17px;
+  }
+  .foundation-box {
+    padding: 22px 20px;
+  }
+  .all-foundation:first-child::after {
+    left: -25px;
+  }
+  .all-foundation::before {
+    left: -25px;
+    width: 25px;
+  }
+  .right-emerging p, .right-emerging p a {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  .right-emerging {
+    padding: 15px 20px 25px 20px;
+  }
+  .festival-section {
+    margin-top: 35px;
+  }
+  .sponser-section h4 {
+    margin-bottom: 10px;
+    font-size: 22px !important;
+  }
+  .festival-header p {
+    margin-bottom: 20px;
+  }
+  .sponser-section {
+    margin-top: 10px;
+  }
+  .single-gift-box h2 {
+    font-size: 22px;
+  }
+  .single-gift-box {
+    padding: 20px 20px 20px 80px;
+  }
+  .single-box-number h2 {
+    font-size: 75px;
+  }
+  .single-box-number {
+    padding: 10px 20px 30px 20px;
+  }
+}

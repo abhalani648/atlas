@@ -1,0 +1,124 @@
+.mission-contain {
+	margin-top: 109px;
+}
+
+.mission-contain .h2 {
+	margin-bottom: 50px;
+}
+.excellence-img {
+	position: relative;
+	width: 95%;
+}
+.excellence-img img {
+	width: 100%;
+}
+.excellence-img:before {
+	bottom: -20px;
+	right: -20px;
+	width: 100%;
+	height: 100%;
+	content:"";
+	background: rgba(94,136,162,.24);
+	position: absolute;
+}
+.mission-contain .container .row {
+  align-items: center;
+  margin-bottom: 55px;
+}
+.mission-contain .container .row .excellence-txt {
+	padding-left: 60px;
+}
+.mission-contain .container .row .excellence-txt .h4 {
+	margin-bottom: 25px;
+	font-weight: bold !important;
+}
+.mission-contain .container .row .excellence-txt p {
+	font-weight: normal !important;
+}
+.mission-contain .container .row.even-box .col-lg-6:first-child {
+	order:2;
+}
+.mission-contain .container .row.even-box .col-lg-6:last-child {
+	order:1;
+}
+.mission-contain .container .row.even-box .col-lg-6 .excellence-txt {
+	padding-left: 0;
+	padding-right: 60px;
+}
+.mission-contain .container .row.even-box .col-lg-6:first-child .excellence-img {
+	float: right;
+}
+
+@media(max-width:1650px) {
+	.mission-contain {
+	  margin-top: 90px;
+	}
+	.mission-contain .container .row .excellence-txt {
+	  padding-left: 40px;
+	}
+	.mission-contain .container .row.even-box .col-lg-6 .excellence-txt {
+	  padding-left: 0;
+	  padding-right: 40px;
+	}
+	.footer-3 .big-text {
+	  max-width: 95%;
+	  text-align: center;
+	  margin-bottom: 20px;
+	}
+}
+@media(max-width:1365px){
+	.mission-contain .h2 {
+	  margin-bottom: 35px;
+	}
+	.mission-contain .container .row .excellence-txt {
+	  padding-left: 20px;
+	}
+	.mission-contain .container .row.even-box .col-lg-6 .excellence-txt {
+	  padding-left: 0;
+	  padding-right: 20px;
+	}
+}
+@media(max-width:1199px){
+	.mission-contain .container .row .excellence-txt .h4 {
+	  margin-bottom: 10px;
+	}
+}
+@media(max-width:991px){
+	.mission-contain .container .row.even-box .col-lg-6:first-child .excellence-img {
+	  float: left;
+	}
+	.mission-contain .container .row {
+	  margin-bottom: 30px;
+	}
+	.mission-contain {
+	  margin-top: 60px;
+	}
+}
+@media(max-width:767px) {
+	.mission-contain .container .row .excellence-txt {
+	  padding-left: 0;
+	}
+	.mission-contain .container .row.even-box .col-lg-6 .excellence-txt {
+	  padding-right: 0;
+	 }
+	 .mission-contain .container .row.even-box .col-lg-6:first-child {
+	  order: 1;
+	}
+	.mission-contain .container .row .excellence-txt {
+	  margin-top: 50px;
+	}
+}
+@media(max-width:585px) {
+.mission-contain .container .row {
+  margin-bottom: 10px;
+}
+.mission-contain .h2 {
+  margin-bottom: 25px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+}
+
+@media(max-width:479px) {
+
+}

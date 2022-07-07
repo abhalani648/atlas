@@ -1,0 +1,126 @@
+.signature-eve {
+	margin-top: 110px;
+	margin-bottom: 50px;
+}
+
+.signature-eve .h2 {
+	margin-bottom: 60px;
+	text-align: center;
+	font-weight: 600;
+}
+
+.signature-eve .row {
+	margin: 0px -32px;
+}
+
+.signature-eve .row .col-sm-6 {
+	padding: 0 30px;
+}
+
+.signature-eve .shadow-img {
+	position: relative;
+	margin: 0px 23px 83px 0px;
+}
+
+.signature-eve .shadow-img::after {
+	content: "";
+	position: absolute;
+	bottom: -23px;
+	right: -23px;
+	height: calc(100% - 23px);
+	width: calc(100% + 9px);
+	background-color: #d8e3e9;
+	z-index: -1;
+	-webkit-clip-path: polygon(0 25%, 100% 3%, 100% 100%, 0% 100%);
+	clip-path: polygon(0 25%, 100% 3%, 100% 100%, 0% 100%);
+}
+
+.signature-eve .shadow-img img {
+	height: 480px;
+	width: 100%;
+	-o-object-fit: cover;
+	object-fit: cover;
+	border:1px solid #707070;
+}
+
+@media (max-width: 1650px) {
+	.signature-eve {
+		margin-top: 80px;
+	}
+
+	.signature-eve .h2 {
+		margin-bottom: 40px;
+	}
+}
+
+@media (max-width: 1367px){
+	.signature-eve .shadow-img img {
+	  height: 420px;
+	}
+}
+
+@media (max-width: 1199px) {
+	.signature-eve .row {
+		margin: 0 -12px;
+	}
+
+	.signature-eve .row .col-sm-6 {
+		padding: 0 12px;
+	}
+
+	.signature-eve .shadow-img {
+		margin: 0px 23px 47px 0px;
+	}
+	.signature-eve .shadow-img img {
+		height: 350px;
+	}
+}
+
+@media (max-width: 991px) {
+	.signature-eve {
+		margin-top: 60px;
+		margin-bottom: 40px;
+	}
+
+	.signature-eve .shadow-img img {
+		height: 260px;
+	}
+	.signature-eve .shadow-img::after {
+	  bottom: -15px;
+	  right: -15px;
+	  height: calc(100% - 15px);
+	}
+}
+
+@media (max-width: 767px) {
+	.signature-eve .shadow-img {
+		margin: 0px 0px 47px 0px;
+	}
+
+	.signature-eve .shadow-img::after {
+		bottom: -12px;
+		right: -12px;
+		width: 100%;
+	}
+	.signature-eve .shadow-img img {
+		height: 200px;
+	}
+	.signature-eve .h2 {
+  margin-bottom: 20px;
+}
+}
+
+@media (max-width: 575px) {
+	.signature-eve .shadow-img img {
+		height: auto;
+	}
+	.signature-eve {
+		margin-bottom: 20px;
+	}
+}
+
+@media (max-width: 479px) {
+	.signature-eve {
+		margin-top: 40px;
+	}
+}

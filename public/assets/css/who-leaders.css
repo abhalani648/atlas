@@ -1,0 +1,330 @@
+
+.essential .logo-tag {
+  width: auto;
+  max-width: 245px;
+}
+
+.essential .logo-text p {
+  margin: 0;
+}
+
+.essential {
+  position: relative;
+  padding-top: 120px;
+  padding-bottom: 60px;
+}
+.essential .green-tringle-shape,
+.essential-box .green-tringle-shape {
+  top:20px;
+}
+.essential-box .left-green-tringle-shape {
+  left: 0;
+  right: auto;
+  top: calc(20% - 100px);
+  clip-path: polygon(0 0, 100% 0, 0 100%, 0% 100%);
+}
+.essential .container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.essential .logo-text {
+  padding-left: 60px;
+  margin-bottom: 0;
+}
+.essential-box .h2 {
+  margin-bottom: 60px;
+}
+
+.essential-box .essential-grid {
+  border: 2px solid #5e88a2;
+  margin-bottom: 60px;
+  display: inline-block;
+}
+
+.essential-box .essential-grid .essential-img {
+  height: 400px;
+  width: calc(100% + 4px);
+  margin: -2px -2px 0px;
+  position: relative;
+}
+
+.essential-box .essential-grid .essential-img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 78%, 0% 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 78%, 0% 100%);
+}
+
+.essential-box .essential-grid .essential-txt {
+  position: relative;
+  padding: 0 60px 55px;
+}
+
+.essential-box .essential-grid .essential-txt .h4 {
+  padding-top: 40px;
+  font-size: 50px !important;
+  margin-bottom: 0;
+  font-weight: bold !important;
+}
+
+.essential-box .essential-grid .essential-txt h6 {
+  padding: 5px 0 40px;
+}
+
+.essential-box .essential-grid .essential-txt p:last-child {
+  margin-bottom: 0;
+}
+.essential-box {
+  position: relative;
+}
+.essential-box .container {
+  -webkit-column-count: 2;
+  -moz-column-count:2;
+  column-count: 2;
+  -webkit-column-gap: 60px;
+  -moz-column-gap:  60px;
+  column-gap:  60px;
+    -moz-column-gap:  60px;
+    -webkit-column-gap:  60px;
+    column-gap:  60px;
+    margin-bottom: 50px;
+}
+@media (max-width: 1750px) {
+  .essential-box .essential-grid .essential-txt .h4 {
+    padding-top: 30px;
+    font-size: 42px !important;
+  }
+  .essential-box .essential-grid .essential-txt h6 {
+    padding: 5px 0 30px;
+    font-size: 22px;
+  }
+  .essential-box .essential-grid .essential-txt {
+    padding: 0 50px 50px;
+  }
+}
+
+@media (max-width: 1650px) {
+
+  .essential .h2 {
+    margin-bottom: 50px;
+  }
+
+  .essential .essential-grid .essential-txt {
+    padding: 0 30px 55px;
+  }
+
+  .essential .essential-grid .essential-txt .h4 {
+    padding-top: 25px;
+  }
+
+  .essential .essential-grid .essential-txt h6 {
+    padding: 5px 0 15px;
+  }
+  .essential {
+  padding-top: 90px;
+}
+.essential .logo-tag {
+  max-width: 155px;
+}
+}
+@media (max-width: 1365px) {
+.essential .logo-text {
+  padding-left: 40px;
+  }
+  .essential-box .essential-grid .essential-txt {
+  padding: 0 40px 40px;
+}
+.essential-box .essential-grid .essential-txt .h4 {
+    font-size: 38px !important;
+  }
+  .essential-box .container {
+  -webkit-column-gap: 40px;
+  -moz-column-gap:  40px;
+  column-gap:  40px;
+    -moz-column-gap:  40px;
+    -webkit-column-gap:  40px;
+    column-gap:  40px;
+    margin-bottom: 30px;
+}
+.essential-box .essential-grid {
+  margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .essential .logo-tag {
+    padding-left: 22px;
+  }
+
+  .essential .logo-text {
+    padding-right: 22px;
+  }
+
+  .essential .row {
+    margin: 0 -22px;
+  }
+
+  .essential .essential-grid {
+    margin: 0 10px;
+  }
+
+  .essential .row:first-child {
+    margin-bottom: 44px;
+  }
+
+  .essential .col-md-6 {
+    margin-bottom: 44px;
+  }
+
+  .essential .essential-grid .essential-txt .h4 {
+    padding-top: 25px;
+  }
+
+  .essential .essential-grid .essential-txt h6 {
+    padding: 5px 0 20px;
+  }
+
+  .essential .essential-grid .essential-txt {
+    padding: 0 30px 35px;
+  }
+
+  .essential .essential-grid .essential-img {
+    height: 350px;
+  }
+  .essential-box .essential-grid .essential-img {
+    height: 320px;
+  }
+  .essential-box .essential-grid .essential-txt {
+    padding: 0 30px 30px;
+  }
+}
+
+@media (max-width: 991px) {
+.essential {
+  padding-top: 60px;
+}
+  .essential .row:first-child {
+    margin-bottom: 24px;
+  }
+
+  .essential .col-md-6 {
+    margin-bottom: 24px;
+  }
+
+  .essential .logo-tag {
+    padding: 0 12px;
+  }
+
+  .essential .logo-text {
+    padding: 0 12px;
+  }
+
+  .essential .row {
+    margin: 0 -12px;
+  }
+
+  .essential .essential-grid {
+    margin: 0;
+  }
+
+  .essential .essential-grid .essential-img {
+    height: 300px;
+  }
+
+  .essential .essential-grid .essential-txt .h4 {
+    padding-top: 30px;
+  }
+
+  .essential .essential-grid .essential-txt h6 {
+    padding: 5px 0 20px;
+  }
+  .essential-box .essential-grid .essential-img {
+    height: 260px;
+  }
+  .essential-box .essential-grid .essential-txt .h4 {
+    font-size: 34px !important;
+      padding-top: 20px;
+  }
+  .essential-box .essential-grid .essential-txt h6 {
+  padding: 5px 0 25px;
+  font-size: 20px;
+}
+  .essential-box .container {
+  -webkit-column-gap: 20px;
+  -moz-column-gap:  20px;
+  column-gap:  20px;
+    -moz-column-gap:  20px;
+    -webkit-column-gap:  20px;
+    column-gap:  20px;
+    margin-bottom: 20px;
+}
+.essential-box .essential-grid {
+  margin-bottom: 20px;
+}
+}
+
+@media (max-width: 767px) {
+  .essential .h2 {
+    margin-bottom: 30px;
+  }
+
+  .essential .logo-tag {
+    margin: 0 auto;
+  }
+
+  .essential .logo-text {
+    /*margin-top: 15px;*/
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+  }
+
+  .essential .essential-grid .essential-img {
+    height: auto;
+  }
+
+  .essential .essential-grid .essential-txt {
+    padding: 20px;
+  }
+
+  .essential .essential-grid .essential-txt .h4 {
+    padding-top: 0px;
+  }
+
+  .essential .essential-grid .essential-txt h6 {
+    padding: 5px 0 10px;
+  }
+  .essential-box .container {
+  -webkit-column-count: 1;
+  -moz-column-count:1;
+  column-count: 1;
+  -webkit-column-gap: 0px;
+  -moz-column-gap:  0px;
+  column-gap:  0px;
+    -moz-column-gap:  0px;
+    -webkit-column-gap:  0px;
+    column-gap:  0px;
+    margin-bottom: 50px;
+}
+.essential-box .essential-grid .essential-img {
+  height: inherit;
+}
+.essential .container {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.essential .logo-text {
+  margin-top: 30px;
+}
+}
+
+@media (max-width: 479px) {
+  .essential-box .essential-grid .essential-txt {
+    padding: 0 20px 20px;
+  }
+}
