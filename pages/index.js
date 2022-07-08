@@ -8,7 +8,7 @@ import { gql } from "@apollo/client";
 import Script from 'next/script'
 
 
-export default function Home({ posts }) {
+export default function Home({ posts, sliderDetails,sliderData }) {
   return (
     <div className="container">
       <Head>
@@ -140,36 +140,44 @@ export default function Home({ posts }) {
             <section class="banner-section">
               <div id="BannerSlider" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
-                  <div class="carousel-item active">
-					<Image
-						src="/assets/images/banner-image.png"
-						alt="image"
-						width="1920"
-						height="830"
-						blurDataURL="data:..." 
-						placeholder="blur"  
-					/>
-                  </div>
-                  <div class="carousel-item">
-                    <Image
-						src="/assets/images/banner-image.png"
-						alt="image"
-						width="1920"
-						height="830"
-						blurDataURL="data:..." 
-						placeholder="blur"  
-					/>
-                  </div>
-                  <div class="carousel-item">
-                    <Image
-						src="/assets/images/banner-image.png"
-						alt="image"
-						width="1920"
-						height="830"
-						blurDataURL="data:..." 
-						placeholder="blur"  
-					/>
-                  </div>
+                  
+					
+					{
+						
+						sliderData.map((slider, i) => {
+							
+						  return ( 
+							i == 0 ? (
+								<div class='carousel-item active' data-key={i}>
+									<Image
+										src={slider.image.sourceUrl}
+										alt="image"
+										width="1920"
+										height="830"
+										blurDataURL="data:..." 
+										placeholder="blur"  
+									/>
+								</div>
+							) : (
+								<div class='carousel-item' data-key={i}>
+									<Image
+										src={slider.image.sourceUrl}
+										alt="image"
+										width="1920"
+										height="830"
+										blurDataURL="data:..." 
+										placeholder="blur"  
+									/>
+								</div>
+							)
+							
+						  )
+						 
+						})
+					}
+					
+                  
+                  
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#BannerSlider" data-bs-slide="prev">
                   <span class="carousel-control-prev-icon"></span>
@@ -179,10 +187,18 @@ export default function Home({ posts }) {
                 </button>
               </div>
                 <div class="banner-detail">
-                    <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit,</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                    <a href="#" class="btn-hope">LEARN MORE</a>
-                </div>
+					
+                    {sliderDetails && (
+					  <h1>{sliderDetails.heading}</h1>
+					  
+					)}
+                   {sliderDetails && (
+					  <p>{sliderDetails.description}</p> 
+					)}
+					{sliderDetails && (
+					  <p><a href={sliderDetails.button_url} class="btn-hope">{sliderDetails.button_title}</a></p> 
+					)}
+                </div> 
             </section>
             <section class="home-all-box">
                 <div class="row">
@@ -334,16 +350,28 @@ export async function getStaticProps(){
 
   // Paste your GraphQL query inside of a gql tagged template literal
   const GET_POSTS = gql`
-    query AllPostsQuery {
-      posts {
-        nodes {
-          title
-          content
-          date
-          uri
-        }
-      }
-    }
+    query SliderQuery {
+	  pageBy(pageId: 29) {
+		homeDetails {
+		  sliderDetails {
+			description
+			heading
+			button {
+			  target 
+			  title
+			  url
+			}
+		  }
+		  slider {
+			image {
+			  altText
+			  title
+			  sourceUrl
+			}
+		  }
+		}
+	  }
+	}
   `;
   // Here we make a call with the client and pass in our query string to the 
   // configuration objects 'query' property
@@ -353,10 +381,20 @@ export async function getStaticProps(){
   // Once we get the response back, we need to traverse it to pull out the 
   // data we want to pass into the HomePage
   const posts = response?.data?.posts?.nodes; 
-
+  
+  const sliderDetails = response?.data?.pageBy?.homeDetails?.sliderDetails; 
+  const sliderData = response?.data?.pageBy?.homeDetails?.slider; 
+	
+  
   return {
     props: {
-      posts
+		sliderDetails: {
+			heading : sliderDetails.heading,
+			description : sliderDetails.description,
+			button_title: sliderDetails.button.title,
+			button_url: sliderDetails.button.url
+		},
+		sliderData: sliderData
     }
   }
 }
