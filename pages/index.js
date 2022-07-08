@@ -1,9 +1,11 @@
 import Head from 'next/head';
 import Footer from '../components/Footer';
 import PostCard from '../components/PostCard';
+import Image from 'next/image'
 import { getAllPosts } from '../lib/test-data';
 import { client } from '../lib/apollo'; 
 import { gql } from "@apollo/client";
+
 
 export default function Home({ posts }) {
   return (
@@ -26,7 +28,17 @@ export default function Home({ posts }) {
                 <div class="container-xl">
                     <div class="row">
                         <div class="col-xl-1 col-lg-1 col-md-3 col-sm-2 col-3">
-                            <a href="#"><img src="assets/images/logo.png" alt="logo" class="logo" /></a>
+                            <a href="#">
+								
+								<Image
+									src="/assets/images/logo.png"
+									alt="logo"
+									width="250"
+									height="150"
+									blurDataURL="data:..." 
+									placeholder="blur"  
+								/>
+							</a>
                         </div>
                         <div class="col-xl-11 col-lg-11 col-md-9 col-sm-10 col-9">
                             <nav class="navbar navbar-expand-lg navbar-dark navigation-menu">
@@ -112,13 +124,34 @@ export default function Home({ posts }) {
               <div id="BannerSlider" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img src="assets/images/banner-image.png" alt="image" class="banner-img d-block" />
+					<Image
+						src="/assets/images/banner-image.png"
+						alt="image"
+						width="1920"
+						height="830"
+						blurDataURL="data:..." 
+						placeholder="blur"  
+					/>
                   </div>
                   <div class="carousel-item">
-                    <img src="assets/images/banner-image.png" alt="image" class="banner-img d-block" />
+                    <Image
+						src="/assets/images/banner-image.png"
+						alt="image"
+						width="1920"
+						height="830"
+						blurDataURL="data:..." 
+						placeholder="blur"  
+					/>
                   </div>
                   <div class="carousel-item">
-                    <img src="assets/images/banner-image.png" alt="image" class="banner-img d-block" />
+                    <Image
+						src="/assets/images/banner-image.png"
+						alt="image"
+						width="1920"
+						height="830"
+						blurDataURL="data:..." 
+						placeholder="blur"  
+					/>
                   </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#BannerSlider" data-bs-slide="prev">
@@ -168,7 +201,14 @@ export default function Home({ posts }) {
                   <div class="tringle-shape"></div>
                   <div class="row">
                       <div class="col-xl-6 col-lg-6 col-md-12">
-                          <img src="assets/images/about-home-image.jpg" class="about-img" alt="image" />
+						  <Image
+								src="/assets/images/about-home-image.jpg"
+								alt="about-img"
+								width="649"
+								height="718"
+								blurDataURL="data:..." 
+								placeholder="blur"  
+							/>
                       </div>
                       <div class="col-xl-6 col-lg-6 col-md-12">
                           <div class="right-about">

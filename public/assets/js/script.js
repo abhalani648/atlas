@@ -12,7 +12,7 @@ $(window).scroll(function() {
 
 /*---- Backtotop ----*/
     var backtop = jQuery('.backToTop');
-    var position = backtop.offset().top;
+    //var position = backtop.offset().top;
     jQuery(window).scroll(function() {
       var windowposition = jQuery(window).scrollTop();
       if (windowposition > 150) {
