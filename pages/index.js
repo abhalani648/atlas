@@ -5,6 +5,7 @@ import Image from 'next/image'
 import { getAllPosts } from '../lib/test-data';
 import { client } from '../lib/apollo'; 
 import { gql } from "@apollo/client";
+import Script from 'next/script'
 
 
 export default function Home({ posts }) {
@@ -13,14 +14,30 @@ export default function Home({ posts }) {
       <Head>
         <title>Headless WP Next Starter</title>
         <link rel="icon" href="favicon.ico"></link>
-		<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" />
-        <link rel="stylesheet" type="text/css" href="assets/css/global.css" />
-        <link rel="stylesheet" type="text/css" href="assets/css/home.css" />
-			<script src="assets/js/jquery-3.6.0.min.js"></script>
-		  <script src="assets/js/bootstrap.min.js"></script>
-		  <script src="assets/js/script.js"></script>
+		
+			
       </Head>
-
+		<Script
+			src="/assets/js/jquery-3.6.0.min.js"
+			strategy="lazyOnload"
+			onLoad={() =>
+			  console.log('jquery script loaded correctly, window.FB has been populated')
+			}
+		/>
+		<Script
+        src="/assets/js/bootstrap.min.js"
+        strategy="lazyOnload"
+        onLoad={() =>
+          console.log('bootstrap script loaded correctly, window.FB has been populated')
+        }
+      />
+	  <Script
+        src="/assets/js/script.js"
+        strategy="lazyOnload"
+        onLoad={() =>
+          console.log('custom script loaded correctly, window.FB has been populated')
+        }
+      />
       
          <div class="wrapper">
 
